@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-mwaa`](https://www.npmjs.com/package/@aws-sdk/client-mwaa/v/3.954.0).
+[`@aws-sdk/client-mwaa`](https://www.npmjs.com/package/@aws-sdk/client-mwaa/v/3.955.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.954.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.955.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-20fT6EKZ9BI8FuEU2TzQWH8mmgza3mF7BULN+ULDJHmBrvl6zUiaC/mERuY3iOPo
+sha384-OD5A9jfZJ6N2gAqD3CUhdRN3NWelbh8R4HMcK/KbkdPgQnrCZLQZ8+nbY3QTAgux
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-mwaa": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.954.0/index.min.mjs"
+            "@aws-sdk/client-mwaa": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.955.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.954.0/index.min.mjs": "sha384-20fT6EKZ9BI8FuEU2TzQWH8mmgza3mF7BULN+ULDJHmBrvl6zUiaC/mERuY3iOPo"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.955.0/index.min.mjs": "sha384-OD5A9jfZJ6N2gAqD3CUhdRN3NWelbh8R4HMcK/KbkdPgQnrCZLQZ8+nbY3QTAgux"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-mwaa": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.954.0/index.min.mjs"
+                        "@aws-sdk/client-mwaa": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.955.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.954.0/index.min.mjs": "sha384-20fT6EKZ9BI8FuEU2TzQWH8mmgza3mF7BULN+ULDJHmBrvl6zUiaC/mERuY3iOPo"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-mwaa@3.955.0/index.min.mjs": "sha384-OD5A9jfZJ6N2gAqD3CUhdRN3NWelbh8R4HMcK/KbkdPgQnrCZLQZ8+nbY3QTAgux"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.954.0`)
+* Always pin to a specific version (`@3.955.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-mwaa/blob/refs/tags/3.954.0/LICENSE
+https://github.com/cloud-sdk-builds/client-mwaa/blob/refs/tags/3.955.0/LICENSE
 ```
 
 ---
